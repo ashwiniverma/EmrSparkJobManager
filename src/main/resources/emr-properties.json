@@ -1,0 +1,14 @@
+{
+  awsAccessKey: "",
+  awsSecretKey: "",
+  cluster.name: "emr_test_1",
+  region: 'us-east-1',
+  bucket: 'spark/libs',
+  jobs: [
+    {
+      job_name: "job1",
+      jar_name: "wordcount.jar",
+      class_name: ""
+    }
+  ]
+}
